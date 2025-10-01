@@ -17,6 +17,11 @@ The configuration was **left at default (no ossec.conf modifications)** to test 
 ---
 
 ## 🛡️ Documentation
+
+- Hydra command line to start the **SSH Brute Force Attack** to the target's IP address.
+   ```bash
+  hydra -l fakeuser -P /usr/share/wordlists/rockyou.txt ssh://<IP-Address>
+
 - Wazuh SIEM detected **3,592 authentication failures** on the Ubuntu Agent.  
   ![Wazuh Dashboard](https://github.com/Latte4Lab/Homelab-Brute-Force-Attack/blob/main/screenshots/Wazuh%20SIEM%20Dashboard.png)  
 
