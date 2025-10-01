@@ -18,20 +18,20 @@ The configuration was **left at default (no ossec.conf modifications)** to test 
 
 ## 🛡️ Documentation
 - Wazuh SIEM detected **3,592 authentication failures** on the Ubuntu Agent.  
-  ![Wazuh Dashboard](https://github.com/putu-elang/cybersecurity-lab/blob/main/blue-team/ssh_bruteforce/screenshots/Wazuh%20SIEM%20Dashboard.png)  
+  ![Wazuh Dashboard](https://github.com/Latte4Lab/Homelab-Brute-Force-Attack/blob/main/screenshots/Wazuh%20SIEM%20Dashboard.png)  
 
 - Wazuh logs confirm that the targeted machine was the **Ubuntu Agent**, and multiple rules were triggered.  
-  ![Wazuh Logs](https://github.com/putu-elang/cybersecurity-lab/blob/main/blue-team/ssh_bruteforce/screenshots/Wazuh%20SIEM%20Logs.png)  
+  ![Wazuh Logs](https://github.com/Latte4Lab/Homelab-Brute-Force-Attack/blob/main/screenshots/Wazuh%20SIEM%20Logs.png)  
 
 ### ✅ Triggered Rules
 1. **Rule 2502** – Password authentication failed more than once.  
-   ![Rule 2502](https://github.com/putu-elang/cybersecurity-lab/blob/main/blue-team/ssh_bruteforce/screenshots/Rule%202502.png)  
+   ![Rule 2502](https://github.com/Latte4Lab/Homelab-Brute-Force-Attack/blob/main/screenshots/Rule%202502.png)  
 
 2. **Rule 5710** – Attempted SSH login into a nonexistent user.  
-   ![Rule 5710](https://github.com/putu-elang/cybersecurity-lab/blob/main/blue-team/ssh_bruteforce/screenshots/Rule%205710.png)  
+   ![Rule 5710](https://github.com/Latte4Lab/Homelab-Brute-Force-Attack/blob/main/screenshots/Rule%205710.png).  
 
 3. **Rule 5758** – Maximum authentication attempts reached.  
-   ![Rule 5758](https://github.com/putu-elang/cybersecurity-lab/blob/main/blue-team/ssh_bruteforce/screenshots/Rule%205758.png)  
+   ![Rule 5758](https://github.com/Latte4Lab/Homelab-Brute-Force-Attack/blob/main/screenshots/Rule%205758.png)  
 
 ---
 
